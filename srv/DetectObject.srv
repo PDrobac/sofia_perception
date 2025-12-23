@@ -1,3 +1,5 @@
 sensor_msgs/PointCloud2 input_pc
 ---
-geometry_msgs/Point object_centroid
+geometry_msgs/Point object_centroid_1
+geometry_msgs/Point object_centroid_2
+geometry_msgs/Point object_centroid_3
