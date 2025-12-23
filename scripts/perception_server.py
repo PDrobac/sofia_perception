@@ -28,7 +28,9 @@ class SofiaPerception(object):
         # object_centroid.z = ...
 
         res = DetectObjectResponse()
-        res.object_centroid = object_centroid
+        res.object_centroid_1 = object_centroid
+        res.object_centroid_2 = object_centroid
+        res.object_centroid_3 = object_centroid
 
         return res
 
